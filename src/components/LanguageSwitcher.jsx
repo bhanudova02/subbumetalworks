@@ -52,7 +52,7 @@ export default function LanguageSwitcher() {
               className={`w-full text-left px-2.5 py-1.5 rounded-2xs font-semibold transition-colors flex items-center justify-between cursor-pointer ${
                 lang === l.code 
                   ? 'bg-accent-orange text-white' 
-                  : 'text-zinc-350 hover:bg-zinc-900 hover:text-white'
+                  : 'text-zinc-300 hover:bg-zinc-900 hover:text-white'
               }`}
             >
               <span>{l.label}</span>

@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 sm:gap-3">
             <a 
               href="tel:+917893976679" 
-              className="flex items-center gap-1.5 px-3 py-1.5 border border-zinc-350 rounded-sm text-xs sm:text-sm font-semibold text-charcoal hover:bg-zinc-50 transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 border border-zinc-300 rounded-sm text-xs sm:text-sm font-semibold text-charcoal hover:bg-zinc-50 transition-colors"
             >
               <Phone size={13} className="text-accent-orange" />
               <span className="hidden xs:inline">{t('callNow')}</span>

@@ -366,7 +366,7 @@ export default function RealWorksGallery() {
                   {img.title}
                   <ZoomIn size={12} className="text-zinc-300" />
                 </h4>
-                <p className="text-[10px] text-zinc-350 leading-relaxed mt-0.5 line-clamp-2">
+                <p className="text-[10px] text-zinc-300 leading-relaxed mt-0.5 line-clamp-2">
                   {img.description}
                 </p>
               </div>
